@@ -3,7 +3,13 @@
   "description" : "My minimal Extension",
   "version": "1.0",
   "manifest_version": 2,
+  "icons": {
+    "16": "assets/logo16.png",
+    "48": "assets/logo48.png",
+    "128": "assets/logo128.png"
+  },
   "browser_action": {
-    "default_icon": "logo.png"
+    "default_popup": "workinprogress.html",
+    "default_icon": "assets/logo.png"
   }
 }
